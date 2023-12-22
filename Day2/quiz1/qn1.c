@@ -18,4 +18,5 @@ int main()
         area=3.14*size*size;
         printf("Size of the Circle is %f",area);
     }
+    return 1;
 }

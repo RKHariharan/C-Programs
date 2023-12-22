@@ -1,31 +1,30 @@
-#include<stdio.h>
-int main()
+#include <stdio.h>
+int main() 
 {
-	char str[100],temp;
-	printf("Enter the string: ");
-	gets(str);
-	int len=strlen(str);
-	int num;
-	for(int i=0;i<len;i++)
-	{
-		num=0;
-		if(isalpha(str[i]))
-		{
-			temp=str[i];
-			for(int j=i+1;j<len;j++)
-			{
-				if(isdigit(str[j]))
-				{
-					num=num*10+str[j] - 48;
-				}
-				else 
-				  break;
-			}
-			for(int k=0;k<num;k++)
-			{
-				printf("%c",temp);
-			}
-		}
-	}
-	return 1;
- }
+    int x=1,y=2,temp=5;
+    for(int i=1;i<6;i++)
+    {
+        for(int j=1;j<6;j++)
+        {
+            if(j<temp)
+            {
+                printf("  ");
+            }
+            else
+            {
+                if(i%2==0)
+                {
+                    printf("%d ",y);
+                    y=y+2;
+                }
+                else
+                {
+                    printf("%d ",x);
+                    x=x+2;
+                }
+            }
+        }
+        printf("\n");
+         temp--;
+    }
+}

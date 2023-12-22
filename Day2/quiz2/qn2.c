@@ -28,14 +28,3 @@ int main()
 	}
 	return 1;
  }
-// 		for(int j=i;j<len;j++)
-// 		{
-// 			if(isalpha(str[j]))
-// 			{
-// 				break;
-// 			}
-// 			else
-// 		    {
-// 			   num=num*10+str[i] - 48;
-// 		    }
-// 		}

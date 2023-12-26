@@ -32,20 +32,4 @@ public class qn1 {
 
     }
 
-    // static boolean function(int num) {
-    // if (num < 10) {
-    // if (num == 1 || num == 7)
-    // return true;
-    // return false;
-    // }
-    // int a = num;
-    // int sum = 0;
-    // while (a > 0) {
-    // int b = a % 10;
-    // sum += (b * b);
-    // a /= 10;
-    // }
-    // return function(sum);
-    // }
-
 }

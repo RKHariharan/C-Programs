@@ -1,7 +1,6 @@
-package placement_training;
 import java.util.ArrayList;
 import java.util.List;
-public class Permutations {
+public class qn2 {
     public static List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
         List<Integer> current = new ArrayList<>();

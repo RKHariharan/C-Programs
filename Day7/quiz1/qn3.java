@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class ClubbedWords {
+public class qn3 {
     public static List<String> findClubbedWords(String[] words) {
         List<String> result = new ArrayList<>();
 
